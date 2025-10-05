@@ -195,10 +195,4 @@ express-mongo-auth/
 2. Verificar que la contraseña cumple con los requisitos
 3. Verificar los logs del navegador (F12)
 
-## 📧 Contacto
 
-Desarrollado por earevalo
-
-## 📄 Licencia
-
-ISC
