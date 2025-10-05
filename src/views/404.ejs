@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - Express Auth</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align" style="margin-top: 50px;">
+                    <i class="material-icons" style="font-size: 150px; color: #ffa726;">find_in_page</i>
+                    <h1>404</h1>
+                    <h4>Página No Encontrada</h4>
+                    <p class="flow-text">La página que buscas no existe.</p>
+                    <p>Verifica la URL o regresa al inicio.</p>
+                    <div style="margin-top: 30px;">
+                        <a href="javascript:history.back()" class="btn blue darken-2">
+                            <i class="material-icons left">arrow_back</i>
+                            Volver
+                        </a>
+                        <a href="/" class="btn green darken-2">
+                            <i class="material-icons left">home</i>
+                            Ir al Inicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <%- include('partials/footer') %>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/js/auth.js"></script>
+</body>
+</html>

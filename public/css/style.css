@@ -1,0 +1,103 @@
+/* Estilos personalizados */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    padding-bottom: 50px;
+}
+
+/* Ajustes para el footer */
+.page-footer {
+    padding-top: 0;
+}
+
+/* Tarjetas */
+.card {
+    border-radius: 8px;
+}
+
+.card .card-title {
+    font-weight: 500;
+}
+
+/* Formularios */
+.input-field input:focus + label {
+    color: #1565c0 !important;
+}
+
+.input-field input:focus {
+    border-bottom: 1px solid #1565c0 !important;
+    box-shadow: 0 1px 0 0 #1565c0 !important;
+}
+
+/* Botones */
+.btn {
+    border-radius: 4px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.btn:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+/* Chips */
+.chip {
+    font-weight: 500;
+}
+
+/* Tablas */
+table.striped tbody tr:nth-child(odd) {
+    background-color: rgba(242, 242, 242, 0.5);
+}
+
+/* Navbar */
+.brand-logo i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Preloader */
+.preloader-wrapper {
+    margin: 30px auto;
+}
+
+/* Collection */
+.collection .collection-item {
+    padding: 15px 20px;
+}
+
+/* Modal */
+.modal {
+    border-radius: 8px;
+}
+
+.modal .modal-content {
+    padding: 24px;
+}
+
+/* Cards en dashboard */
+.card.blue, .card.green, .card.orange, .card.purple {
+    transition: transform 0.2s;
+}
+
+.card.blue:hover, .card.green:hover, .card.orange:hover, .card.purple:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 600px) {
+    .card .card-content {
+        padding: 15px;
+    }
+    
+    .brand-logo {
+        font-size: 1.5rem;
+    }
+}
